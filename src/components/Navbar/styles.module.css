@@ -1,0 +1,25 @@
+.nav {
+  padding: 2%;
+  background-color: lightblue;
+  width: 100%;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav a {
+  padding: 10px;
+}
+
+.navDisabled {
+  pointer-events: none;
+  color: gray;
+  text-decoration: none;
+}
+
+.cursor_not_allowed {
+  cursor: not-allowed;
+}
