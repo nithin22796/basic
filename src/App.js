@@ -13,8 +13,14 @@ function App() {
     <BrowserRouter>
       <Provider store={store}>
         <div className="App">
-          <NavBar />
-          <Routers />
+          <div className="mainContainer">
+            <div className="container_block">
+              <NavBar />
+            </div>
+            <div className="container_block">
+              <Routers />
+            </div>
+          </div>
         </div>
       </Provider>
     </BrowserRouter>
